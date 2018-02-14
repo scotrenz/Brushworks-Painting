@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BrushWorks Painting</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="600">
+    <div class="fluid-container">
+        <div id="header">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class="text-center" id="logo">BrushWorks Painting</h2>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <nav id="navbar" class="navbar" text-center>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">
+                                    <h3>About Us</h3>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#transition1">
+                                    <h3>Services</h3>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#transition2">
+                                    <h3>Portfolio</h3>
+                                </a>
+                            </li>
+                            <li class="nav-item" class="nav-item">
+                                <a class="nav-link" href="#transition3">
+                                    <h3>Contact</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="home">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6" id="aboutUs">
+                    <h4 class="text-center">About us</h4>
+                    <p style="color:white; font-family: 'Caslon';font-size: 30px;">
+                        This website is designed to show you exactly what BrushWorks Painting is all about. It illustrates what kind of services we provide, areas of service, examples of our work, and contact information. To learn more about us, click any item on our menu. If you have comments or questions, let us know by clicking Contact Us. Thanks for visiting and be sure to check back often for updated information.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="transition1">
+            <div id="progressBar1">
+                <img id="roller1" src="assets/Images/roller.png" height="150px">
+            </div>
+        </div>
+        <div class="services">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 text-left" id="services">
+                    <h4 class="text-center">Services</h4>
+                    <div>
+                        BrushWorks Painting strives to provide exceptionally high quality interior painting and wallcoverings for both residential and commercial clients on a timely basis. Services include (but are not limited to):
+                    </div>
+                    <ul>
+                        <li>Custom interior painting</li>
+                        <li>Wall repair and preparation</li>
+                        <li>Water damage repair</li>
+                        <li>Wallpaper removal and installation</li>
+                        <li>Staining and refinishing</li>
+                        <li>Moulding installation services also available</li>
+                    </ul>
+                    <br>
+                    <h4 class="text-cente">Products We Use</h4>
+                    <ul>
+                        <li>
+                           <a href="https://www.benjaminmoore.com/en-us/color-overview" target="black"><span>Benjamin Moore Paints</span></a>
+                        </li>
+                        <li>
+                           <a href="http://www.prattandlambert.com/" target="black"><span>Pratt and Lambert</span></a>
+                        </li>
+                        <li>
+                           <a href="http://www.minwax.com/wood-products/" target="black"><span>Minwax Product</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div  class="col-md-5">
+                    <div id="quote-builder" class="card">
+                        <div class="card-header">
+                            <strong>Get A Quote</strong>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="building">Building Type</label>
+                                    <select class="form-control" id="building">
+                                        <option value="4">Regular</option>
+                                        <option value="2">T-Building</option>
+                                        <option value="3">Brownstone</option>
+                                        <option value="1">New Construction</option>
+                                    </select>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-2">
+                                        <label for="livingroom">Living Room</label>
+                                        <select class="form-control" id="livingroom">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="trim1" value="trim"> Trim
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="wall1" value="walls"> Walls
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="ceiling1" value="ceiling"> Ceiling
+                                        </label>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div id="livingTotal"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-2">
+                                        <label for="kitchen">Kitchen</label>
+                                        <select class="form-control" id="kitchen">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="trim2" value="trim"> Trim
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="wall2" value="walls"> Walls
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="ceiling2" value="ceiling"> Ceiling
+                                        </label>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div id="kitchenTotal"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-2">
+                                        <label for="bathroom">Bathroom</label>
+                                        <select class="form-control" id="bathroom">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="trim3" value="trim"> Trim
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="wall3" value="walls"> Walls
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="ceiling3" value="ceiling"> Ceiling
+                                        </label>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div id="bathroomTotal"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-2">
+                                        <label for="bedroom">Bedroom</label>
+                                        <select class="form-control" id="bedroom">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="trim4" value="trim"> Trim
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="wall4" value="walls"> Walls
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="ceiling4" value="ceiling"> Ceiling
+                                        </label>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div id="bedroomTotal"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                                    </div>
+                                    <div class="col-md-3"></div>
+                                    <div id="total"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="transition2">
+            <div id="progressBar2">
+                <img id="roller2" src="assets/Images/roller.png" height="150px">
+            </div>
+        </div>
+        <div id="examples">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h4 class="text-center">Portfolio</h4>
+                    <p style="color:black; font-family: 'Caslon'">Recent Projects</p>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="assets/Images/painted1.jpg" alt="Los Angeles" width="1100" height="500">
+                                <div class="carousel-caption">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/Images/painted2.jpg" alt="Chicago" width="1100" height="500">
+                                <div class="carousel-caption">
+                                    <h3>Chicago</h3>
+                                    <p>Thank you, Chicago!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/Images/painted3.jpg" alt="New York" width="1100" height="500">
+                                <div class="carousel-caption">
+                                    <h3>New York</h3>
+                                    <p>We love the Big Apple!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="transition3" id="contact">
+            <div id="progressBar3">
+                <img id="roller3" src="assets/Images/roller.png" height="150px">
+            </div>
+        </div>
+        <div class="contact">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 text-left" id="contact">
+                    <h4 class="text-center">Contact</h4>
+                    <div>
+                        We are based in Hoboken, NJ and provide services to most northeastern New Jersey areas. We aim to work around your schedules. Don't hesitate to contact us as to whether we serve your area.
+                        <br>
+                        <br> We believe our customers are our number 1 priority. Each customer is a unique opportunity to provide outstanding service. We take pride in the quality of our work and we’re not finished until you're satisfied.
+                        <br>
+                        <br>
+                        <div class="text-center">
+                            <h3>Main Contact</h3>
+                            <br> John Beers
+                            <br> 611c Madison Street
+                            <br> Hoboken, New Jersey 07030
+                            <br> Phone Number: 201-725-1655
+                            <br><a id="email" href="mailto:customerservice@brushworkspaint.com">Click here to send email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 id="footer" class="text-center">
+            <div>BrushWorks &copy;</div>
+        </h2>
+        <div class="mobile">Please view on desktop</div>
+    </div>
+    <script src="assets/javascript/logic.js"></script>
+</body>
+
+</html>

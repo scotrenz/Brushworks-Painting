@@ -1,0 +1,271 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #b20000;
+    color: #ffce42;
+}
+.nav-pills .nav-item :hover{
+    color: #ffce42;
+}
+nav#navbar.navbar{
+    padding: 0px;
+}
+
+a {
+    color: black;
+}
+a:hover{
+    color: #E0FFFF;
+}
+h3 {
+    font-size: 20px;
+}
+
+span {
+    color: white;
+}
+
+#roller1 {
+    position: absolute;
+    left: -2%;
+}
+
+#transition1 {
+    margin-top: -150px;
+    width: 100%;
+    height: 150px;
+    z-index:1;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    overflow: hidden;
+}
+
+#progressBar1 {
+    width: 0%;
+    float: left;
+    height: 100%;
+    z-index: 99;
+    max-width: 100%;
+    background-color: #0817b7;
+    overflow: hidden;
+}
+
+#roller2 {
+    position: absolute;
+    left: -2%;
+}
+
+#transition2 {
+    width: 100%;
+    height: 150px;
+    background: #0817b7;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#progressBar2 {
+    width: 0%;
+    float: left;
+    height: 100%;
+    z-index: 99;
+    max-width: 100%;
+    background-color: #ffce42;
+    overflow: hidden;
+
+}
+
+#roller3 {
+    position: absolute;
+    left: -2%;
+}
+
+#transition3 {
+    width: 100%;
+    height: 150px;
+    background: #ffce42;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#progressBar3 {
+    width: 0%;
+    float: left;
+    height: 100%;
+    z-index: 99;
+    max-width: 100%;
+    background-color: #b20000;
+    overflow: hidden;
+
+}
+
+body {
+    position: relative;
+}
+
+input {
+    color: black;
+}
+
+#examples {
+    background: #ffce42;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#services {
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+.services {
+    padding-top: 20px;
+    background: #0817b7;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#contact {
+    font-size: 24px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#quote-builder{
+    color: black;
+    background: #b20000;
+    border-color: white;
+}
+.card-header {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.contact {
+    background: #b20000;
+    height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutUs {
+    margin-top: 160px;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#logo {
+    padding-left: 10px;
+    font-size: 50px;
+    color: #0817b7;
+    font-family: "Marker Felt";
+}
+h4{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+
+#header {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding-top: 30px;
+    margin-top: 0px;
+    z-index: 99;
+}
+
+#email {
+    color: white;
+}
+
+#home {
+    max-width: 100%;
+    padding-top: 100px;
+    background-image: url("../Images/back.jpg");
+    height: 1050px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    color: white;
+    padding-top: 30px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #header {
+        position: relative;
+        height: 150px;
+        z-index: 99;
+    }
+    #aboutUs {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #header {
+        height: 160px;
+    }
+    #aboutUs {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    #home {
+        padding-top: 160px;
+        height: 670px;
+    }
+    #navbar {
+        text-align: center;
+    }
+}
