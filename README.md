@@ -1,6 +1,6 @@
 # Brushworks-Painting
 
-Website for local painting company to display their work, provided quotes, and grow their clientel.
+Website for local painting company to display their work, provided quotes, and grow their clientele.
 
 Stack: 
 
